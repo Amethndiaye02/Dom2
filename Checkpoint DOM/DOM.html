@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="DOM.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <h1>
+        Librairie CHEIKH AHMADOU BAMBA
+     </h1>
+     <div class="row">
+        <div class="col-4">
+            <img style="width: 350px;" src="wakana haqqan.png" alt="Xassaid">
+            <div style="background: white;border-radius: 40px;padding: 20px 0 10px 0;width: 350px;">
+                <div>
+                    <p ><b style="margin-left: 80px;"> Xassidas wakana Haqqan </b> </p>
+                </div>
+                <div style="margin-left: 130px;">
+                    <h2 id="prix1">3000 </h2>
+                </div>
+                <div style="margin-left: 130px;position: relative;">
+                    <div class="float: left">
+                        <button onclick="add1()" >+</button>
+                    </div>
+                    <div>
+                        <h2 id="qte1">1 </h2>
+                    </div>
+                    <div class="float: right">
+                        <button onclick="moins1()">-</button>
+                    </div>
+                    <div class="sup">
+                     <button onclick="supprimer1()">supprimer</button>
+                    </div>
+                    <div class="like">
+                        
+                     <button onclick="like1()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"></path>
+                      </svg></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <img style="width: 350px;" src="mawahibou.png" alt="Xassaid">
+            <div style="background: white;border-radius: 40px;padding: 20px 0 10px 0;width: 350px;">
+                <div>
+                    <p ><b style="margin-left: 80px;"> Xassidas Mawahibou </b> </p>
+                </div>
+                <div style="margin-left: 130px;">
+                    <h2 id="prix2">2000 </h2>
+                </div>
+                <div style="margin-left: 130px;position: relative;">
+                    <div class="float: left">
+                        <button onclick="add2()" >+</button>
+                    </div>
+                    <div>
+                        <h2 id="qte2">1 </h2>
+                    </div>
+                    <div class="float: right">
+                        <button onclick="moins2()">-</button>
+                    </div>
+                    <div class="sup">
+                     <button onclick="supprimer2()">supprimer</button>
+                    </div>
+                    <div class="like">
+                        
+                        <button onclick="like2()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                           <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"></path>
+                         </svg></button>
+                       </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <img style="width: 700px; margin-left: -160px;" src="Touhfatou.png" alt="Xassaid">
+            <div style="background: white;border-radius: 40px;padding: 20px 0 10px 0;width: 350px;">
+                <div>
+                    <p ><b style="margin-left: 80px;"> Xassidas Touhfatou</b> </p>
+                </div>
+                <div style="margin-left: 130px;">
+                    <h2 id="prix3">1500 </h2>
+                </div>
+                <div style="margin-left: 130px;position: relative;">
+                    <div class="float: left">
+                        <button onclick="add3()" >+</button>
+                    </div>
+                    <div>
+                        <h2 id="qte3">1 </h2>
+                    </div>
+                    <div class="float: right">
+                        <button onclick="moins3()">-</button>
+                    </div>
+                    <div class="sup">
+                     <button onclick="supprimer3()">supprimer</button>
+                    </div>
+                    <div class="like">
+                        
+                        <button onclick="like3()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                           <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"></path>
+                         </svg></button>
+                       </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div style="background: skyblue;padding: 10px;width: 300px; border-radius: 20px;text-align: center; margin-top: 30px;" id="total">
+        <h2>6500</h2>
+     </div>
+<script src="DOM.js"></script>
+</body>
+
+</html>
